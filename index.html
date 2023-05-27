@@ -7,21 +7,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <link rel="icon" href="\images - 複製.ico" type="image/x-icon" /> -->
 	<!-- <link rel="apple-touch-icon" sizes="152x152" href="https://www.lccnet.com.tw/lccnet/img/touch-icon-ipad.png"> -->
-	<link rel="icon" href="\images - 複製.ico" type="image/x-icon" />
+	<!-- <link rel="icon" href="\images - 複製.ico" type="image/x-icon" /> -->
 	<title> 健身網站</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="\images\images - 複製.ico" type="image/x-icon" />
 	<style>
 		#container {
 			margin: 10px auto;
 			/* text-align: center; */
-			background-color: #A9A9A9;
+			background-color: #E8F6EF;
+			padding: 10px;
 		}
 
+
 		.sub-title {
+			display: inline-block;
+			text-align: center;
+			width: 700px;
 			font-size: 32px;
 			font-family: 微軟正黑體, Courier, monospace;
-			background-color: cyan;
+			background-color: #E57C23;
 			color: brown;
-			margin-bottom: 5px;
+			margin: 5px;
+			padding: 10px;
 			border-radius: 5px;
 		}
 
@@ -35,7 +43,7 @@
 		}
 
 		.block1 {
-			background-color: cyan;
+			background-color: #FFE194;
 			color: darkmagenta;
 			font-size: 20px;
 			margin: 5px auto;
@@ -54,7 +62,7 @@
 		}
 
 		#image {
-			background-color: burlywood;
+			background-color: #1B9C85;
 			text-align: center;
 			padding: 24px 0;
 		}
@@ -79,15 +87,77 @@
 			border-radius: 12px;
 			margin: 5px auto;
 		}
+
+		a {
+			color: #44516f;
+		}
+
+		a :hover {
+			color: darkorchid;
+		}
+
+		a :visited {
+			color: darkred;
+		}
+
+		#table1 {
+			width: 80%;
+			margin: 0px auto;
+			/* height: 80px; */
+		}
+
+		#table1 th {
+			background-color: crimson;
+			color: darkseagreen;
+		}
+
+		#table1 td {
+			background-color: darkslategray;
+			color: coral;
+		}
+
+		.video {
+			/* background-color: azure; */
+			width: 80%;
+
+		}
+
+		.block2 {
+			width: 80%;
+			text-align: center;
+			margin: 0 auto;
+			background-color: hotpink;
+			padding: 5px;
+
+		}
+
+		#confirm {
+			background-color: darkseagreen;
+			border-radius: 3px;
+			margin-bottom: 5px;
+		}
+
+		#reset {
+			background-color: lightsalmon;
+			border-radius: 3px;
+			margin-bottom: 5px;
+		}
+
+		textarea {
+			width: 90%;
+
+		}
+
+		.a-text {
+			display: block;
+		}
 	</style>
 </head>
 
 <body>
 	<div id="container">
-		<!-- 快訊~! -->
-		<!-- ctrl+/ >>註解使用方法 -->
-		<!-- <p>總統蔡英文今天上午9時在總統府內主持「執政7年，重新定義台灣，讓世界重新看見台灣」記者會，這是蔡英文在總統任內最後一次520就職演說，並開放媒體提問。記者會出席人員包括副總統賴清德，總統府秘書長林佳龍、副秘書長黃重諺、張惇涵，與發言人林聿禪、Kolas
-		Yotaka等人。</p> &nbsp;&nbsp; 出自yahoo新聞 -->
+		<a class="a-text">title1</a>
+		<a>title2</a>
 		<div id="title">
 			何謂健身?
 		</div>
@@ -154,36 +224,38 @@
 		</small>
 		<hr>
 		<div class="sub-title">一天所需卡路里</div>
-		<table border="1">
-			<thead>
-				<tr>
-					<th>每天活動量</th>
-					<th>體重過輕者所需熱量</th>
-					<th>體重正常者所需熱量</th>
-					<th>體重過重、肥胖者所需熱量</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>輕度工作</td>
-					<td>35大卡 X 目前體重（公斤）</td>
-					<td>30大卡 X 目前體重（公斤）</td>
-					<td>20~25大卡 X 目前體重（公斤）</td>
-				</tr>
-				<tr>
-					<td>中度工作</td>
-					<td>40大卡 X 目前體重（公斤）</td>
-					<td>35大卡 X 目前體重（公斤）</td>
-					<td>30大卡 X 目前體重（公斤）</td>
-				</tr>
-				<tr>
-					<td>重度工作</td>
-					<td>45大卡 X 目前體重（公斤）</td>
-					<td>40大卡 X 目前體重（公斤）</td>
-					<td>35大卡 X 目前體重（公斤）</td>
-				</tr>
-			</tbody>
-		</table>
+		<div id="table1">
+			<table border="1">
+				<thead>
+					<tr>
+						<th>每天活動量</th>
+						<th>體重過輕者所需熱量</th>
+						<th>體重正常者所需熱量</th>
+						<th>體重過重、肥胖者所需熱量</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>輕度工作</td>
+						<td>35大卡 X 目前體重（公斤）</td>
+						<td>30大卡 X 目前體重（公斤）</td>
+						<td>20~25大卡 X 目前體重（公斤）</td>
+					</tr>
+					<tr>
+						<td>中度工作</td>
+						<td>40大卡 X 目前體重（公斤）</td>
+						<td>35大卡 X 目前體重（公斤）</td>
+						<td>30大卡 X 目前體重（公斤）</td>
+					</tr>
+					<tr>
+						<td>重度工作</td>
+						<td>45大卡 X 目前體重（公斤）</td>
+						<td>40大卡 X 目前體重（公斤）</td>
+						<td>35大卡 X 目前體重（公斤）</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 		<hr>
 		<p>
 		<div class="sub-title">&diams;舉個栗子</div>
@@ -201,29 +273,35 @@
 		</p>
 		<hr>
 		<h3>網站插入影片1--其他網站(Youtube)</h3>
-		<iframe width="40%" height="450" src="https://www.youtube.com/embed/KO7OTemK-uE"
+
+		<iframe class="video" width="40%" height="450" src="https://www.youtube.com/embed/KO7OTemK-uE"
 			title="【不可能的任務：致命清算 第一章】最新預告 - 今年暑假戲院見" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			allowfullscreen></iframe>
-		<iframe width="40%" height="450" src="https://www.youtube.com/embed/6xRRn44sw5I" title="【閃電俠】全新預告，今年6月 全版本大銀幕鉅獻"
-			frameborder="0"
+		<iframe class="video" width="40%" height="450" src="https://www.youtube.com/embed/6xRRn44sw5I"
+			title="【閃電俠】全新預告，今年6月 全版本大銀幕鉅獻" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			allowfullscreen></iframe>
-		<h3>網站插入影片2--本地端</h3>
-		<video width="30%" src="videos\sample-5s.mp4"></video>
-		<a href="">回到最上面</a>
-		<div class="sub-title">表單填寫</div>
-		<form action="">
-			<label for="email2">信箱:</label>
-			<input type="email" id="email2" placeholder="請輸入email" required>
-			<p>您的寶貴意見</p>
-			<br>
-			<textarea name="suggest" id="suggests" cols="30" rows="10"></textarea>
-			<br>
-			<button type="submit">確定</button>
-		</form>
 
+		<h3>網站插入影片2--本地端</h3>
+		<video class="video" width="30%" src="videos\sample-5s.mp4"></video>
+		<a href="">回到最上面</a>
+
+
+		<div class="sub-title">表單填寫</div>
+		<div class="block2">
+			<form action="">
+				<label for="email2">信箱:</label>
+				<input type="email" id="email2" placeholder="請輸入email" required>
+				<p>您的寶貴意見</p>
+				<br>
+				<textarea name="suggest" id="suggests" cols="30" rows="10"></textarea>
+				<br>
+				<button type="submit" id="confirm">確定</button>
+				<button type="reset" id="reset">重置</button>
+			</form>
+		</div>
+	</div>
+</body>
 
 </html>
-</div>
-</body>

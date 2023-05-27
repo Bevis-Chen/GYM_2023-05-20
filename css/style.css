@@ -1,0 +1,123 @@
+#container {
+    margin: 10px auto;
+    /* text-align: center; */
+    background-color: #E8F6EF;
+    padding: 10px;
+}
+
+h2 {
+    background-color: #BE5A83;
+    display: inline;
+    margin: 0 auto;
+}
+
+.sub-title {
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+    font-size: 32px;
+    font-family: 微軟正黑體, Courier, monospace;
+    background-color: #E57C23;
+    color: #1B9C85;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#title {
+    font-size: 4rem;
+    color: brown;
+    background-color: antiquewhite;
+    margin: 12px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#image {
+    background-color: #1B9C85;
+    text-align: center;
+    padding: 24px 0;
+}
+
+#image img {
+    background-color: white;
+    padding: 6px;
+    border-radius: 3px;
+    width: 28%;
+}
+
+#image-2 {
+    background-color: rgb(228, 211, 190);
+    text-align: center;
+    /* padding: 15px 0; */
+    margin: 5px auto;
+    height: 300px;
+    border-radius: 3px;
+}
+
+#image-2 img {
+    border-radius: 12px;
+    margin: 5px auto;
+}
+
+a {
+    color: #44516f;
+}
+
+a :hover {
+    color: darkorchid;
+}
+
+a :visited {
+    color: darkred;
+}
+
+#table1 {
+    width: 80%;
+    margin: 0px auto;
+    /* height: 80px; */
+}
+
+#table1 th {
+    background-color: crimson;
+    color: darkseagreen;
+}
+
+#table1 td {
+    background-color: darkslategray;
+    color: coral;
+}
+
+.video {
+    /* background-color: azure; */
+    width: 80%;
+
+}
+
+#confirm {
+    background-color: darkseagreen;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+#reset {
+    background-color: lightsalmon;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 90%;
+
+}
+
+input {
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label {
+    color: #4C4C6D;
+}
